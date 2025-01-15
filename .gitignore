@@ -5,6 +5,10 @@
 *.twb
 *.twbr
 
+# powerpoint/word file
+*.pptx
+*.docx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
