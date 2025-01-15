@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divYE1SPDBJUQ6TZ5R"></div>
+        <div class="lime top_div" id="top_divLFLDBZ5SZY3UF7B"></div>
         
         <script>
-        var top_div = d3.select('#top_divYE1SPDBJUQ6TZ5R').classed('lime top_div', true);
+        var top_div = d3.select('#top_divLFLDBZ5SZY3UF7B').classed('lime top_div', true);
         
         
                     var pp_div = top_div.append('div')
                                         .classed('lime predicted_value', true);
                     var pp_svg = pp_div.append('svg').style('width', '100%');
-                    var pp = new lime.PredictedValue(pp_svg, 7.785438537597656, -0.18327213823795319, 98.31755828857422);
+                    var pp = new lime.PredictedValue(pp_svg, 7.849015235900879, 1.1271203756332397, 54.81631088256836);
                     
         var exp_div;
             var exp = new lime.Explanation(["negative", "positive"]);
         
             exp_div = top_div.append('div').classed('lime explanation', true);
-            exp.show([["hour_of_day=5", 4.247021513716279], ["3.00 < current_pickup_count <= 7.00", -2.528250151579815], ["day_of_month=16", 0.635844357727559], ["1.00 < pickup_count_1h_ago <= 3.00", -0.4718116525366851], ["-73.98 < pickup_longitude <= -73.96", -0.45202410988954966], ["pickup_count_2h_ago <= 1.00", -0.43925066696741205], ["40.75 < pickup_latitude <= 40.77", 0.40631030937143303], ["prcp <= 0.00", -0.2448993329325144], ["temp > 7.80", -0.18408601535024482], ["is_weekend <= 0.00", 0.13248221220676537]], 1, exp_div);
+            exp.show([["hour_of_day=5", 3.0609196334094206], ["3.00 < current_pickup_count <= 7.00", -1.305678109779989], ["1.00 < pickup_count_1h_ago <= 3.00", -0.9873000257640222], ["pickup_count_2h_ago <= 1.00", -0.7718537295817794], ["prcp <= 0.00", 0.6983097272558886], ["month=3", -0.45404877845719516], ["40.75 < pickup_latitude <= 40.77", 0.27453595815909027], ["temp > 7.80", 0.1675974787648184], ["day_of_week=3", -0.16188203576981947], ["day_of_month=16", 0.12648287635653668]], 1, exp_div);
             
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["hour_of_day=5", "True", 4.247021513716279], ["current_pickup_count", "5.00", -2.528250151579815], ["day_of_month=16", "True", 0.635844357727559], ["pickup_count_1h_ago", "2.00", -0.4718116525366851], ["pickup_longitude", "-73.98", -0.45202410988954966], ["pickup_count_2h_ago", "1.00", -0.43925066696741205], ["pickup_latitude", "40.77", 0.40631030937143303], ["prcp", "0.00", -0.2448993329325144], ["temp", "10.00", -0.18408601535024482], ["is_weekend", "0.00", 0.13248221220676537]], 1, raw_div);
+            exp.show_raw_tabular([["hour_of_day=5", "True", 3.0609196334094206], ["current_pickup_count", "5.00", -1.305678109779989], ["pickup_count_1h_ago", "2.00", -0.9873000257640222], ["pickup_count_2h_ago", "1.00", -0.7718537295817794], ["prcp", "0.00", 0.6983097272558886], ["month=3", "True", -0.45404877845719516], ["pickup_latitude", "40.77", 0.27453595815909027], ["temp", "10.00", 0.1675974787648184], ["day_of_week=3", "True", -0.16188203576981947], ["day_of_month=16", "True", 0.12648287635653668]], 1, raw_div);
         
         </script>
         </body></html>
