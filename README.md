@@ -57,3 +57,8 @@ For Modelling, I used Linear Regression and XGBoost Regressor (Poisson objective
 - `linear_regression.ipynb`: notebook for training a baseline linear regression model
 - `xgboost.ipynb`: notebook for training xgboost regressor model
 - `requirements.txt`: list of required libraries and dependencies to run this prediction task.
+
+## Deployment
+
+Using the inference result, I created a tableau heatmap to serve the next hour predictions from March 16 to March 31 2016. 
+View the visualisation [here](https://public.tableau.com/app/profile/rosamund5307/viz/taxi_demand_predictions_xgboost/NextHourTaxiDemandPrediction) 
